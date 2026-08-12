@@ -1,379 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>ABIJNA NARASIMHA DEV VARMA OLETI | Portfolio</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Abhi Oleti, a Computer Science Engineering graduate building useful web experiences and data-driven projects.">
+  <meta name="theme-color" content="#121418">
+  <title>Abhi Oleti | Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;1,400;1,500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <div class="logo">Abhi Oleti</div>
+  <header class="site-header" data-header>
+    <a class="wordmark" href="#home" aria-label="Abhi Oleti home">
+      <span class="wordmark-mark">AO</span>
+      <span>ABHI OLETI</span>
+    </a>
 
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-menu-toggle>
+      <span class="sr-only">Toggle navigation</span>
+      <span></span><span></span>
+    </button>
+
+    <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation" data-nav>
+      <a href="#about">Profile</a>
+      <a href="#work">Work</a>
+      <a href="#experience">Timeline</a>
+      <a href="#contact">Contact</a>
     </nav>
 
+    <a class="header-status" href="#contact">
+      <span class="status-dot" aria-hidden="true"></span>
+      Open to opportunities
+    </a>
+  </header>
 
-    <!-- Home Section -->
-    <section id="home">
-
-        <div class="home-content">
-
-            <p>Hello, I'm</p>
-
-            <h1>Abhi Oleti</h1>
-
-            <h2>Aspiring Software Developer</h2>
-
-            <p>
-                Computer Science Engineering student passionate about
-                software development, web technologies, and problem solving.
-            </p>
-
-            <div class="home-buttons">
-                <a href="#projects">View Projects</a>
-                <a href="#contact">Contact Me</a>
-            </div>
-
+  <main id="main">
+    <section id="home" class="hero section-shell">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> SYSTEM STATUS / AVAILABLE</p>
+        <h1>Building useful digital experiences with <em>clarity</em> and curiosity.</h1>
+        <p class="hero-intro">I am Abhi Oleti, a 2026 Computer Science Engineering graduate. I build responsive web interfaces and use data-driven thinking to turn practical ideas into working projects.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">View selected work <span aria-hidden="true">&#8594;</span></a>
+          <a class="button button-secondary" href="assets/abhi-oleti-resume.pdf" download>Download resume <span aria-hidden="true">&#8595;</span></a>
         </div>
+      </div>
 
+      <aside class="terminal-card" aria-label="Current developer profile">
+        <div class="terminal-bar">
+          <span></span><span></span><span></span>
+          <p>career.pass</p>
+        </div>
+        <div class="profile-photo">
+          <img src="assets/abhi-profile.jpg" alt="Abhi Oleti">
+        </div>
+        <dl>
+          <div><dt>ROLE</dt><dd>Software Development</dd></div>
+          <div><dt>FOCUS</dt><dd>Web + AI/ML</dd></div>
+          <div><dt>LOCATION</dt><dd>Andhra Pradesh, IN</dd></div>
+          <div><dt>BUILD MODE</dt><dd><span class="inline-status">active</span></dd></div>
+        </dl>
+        <div class="terminal-footer">ORIGIN / CSE 2026 &rarr; DESTINATION / SOFTWARE</div>
+      </aside>
     </section>
 
-   <!-- About Section -->
-<section id="about">
-
-    <h2>About Me</h2>
-
-    <div class="about-container">
-
-        <div class="about-content">
-
-            <h3>Computer Science Engineering Student</h3>
-
-            <p>
-                I am a Computer Science Engineering student with a strong
-                interest in software development and web technologies.
-                I enjoy building practical projects and improving my
-                programming and problem-solving skills.
-            </p>
-
-            <p>
-                I have experience working with programming languages such as
-                Java, Python, C, and C++, along with web technologies including
-                HTML, CSS, and JavaScript. I also have knowledge of MySQL and
-                version control using GitHub.
-            </p>
-
-            <p>
-                Through virtual internships, projects, and hackathon
-                participation, I have gained exposure to Cybersecurity,
-                Android Development, Data Science, and Artificial Intelligence
-                and Machine Learning.
-            </p>
-
-            <div class="about-info">
-
-                <div>
-                    <span>Education</span>
-                    <p>B.Tech in Computer Science & Engineering</p>
-                </div>
-
-                <div>
-                    <span>Focus</span>
-                    <p>Software Development & Web Development</p>
-                </div>
-
-                <div>
-                    <span>Current Goal</span>
-                    <p>Building practical projects and strengthening DSA</p>
-                </div>
-
-            </div>
-
+    <section id="about" class="section-shell profile-section">
+      <div class="section-heading" data-stamp="PROFILE">
+        <p class="eyebrow">01 / PROFILE</p>
+        <h2>More than a list of technologies.</h2>
+      </div>
+      <div class="profile-layout">
+        <div class="profile-copy">
+          <p>I am interested in the part of development where structure meets usefulness: writing clean front-end experiences, exploring data, and steadily improving the way I solve problems.</p>
+          <p>My work so far combines responsive web development, an interest in both Java and Python, AI/ML learning, and a hackathon project that earned first prize. I’m looking for software opportunities where I can contribute, keep learning, and build useful solutions.</p>
         </div>
-
-    </div>
-
-</section>
-
-    <!-- Skills Section -->
-<section id="skills">
-
-    <h2>My Skills</h2>
-
-    <div class="skills-container">
-
-        <div class="skill-card">
-            <h3>Programming Languages</h3>
-
-            <div class="skill-list">
-                <span>Java</span>
-                <span>Python</span>
-                <span>C</span>
-                <span>C++</span>
-            </div>
+        <div class="signal-grid">
+          <article class="signal-card">
+            <p class="signal-index">SIGNAL_01</p>
+            <h3>2026 Graduate</h3>
+            <p>B.Tech in Computer Science and Engineering, Srinivasa Institute of Engineering and Technology.</p>
+          </article>
+          <article class="signal-card">
+            <p class="signal-index">SIGNAL_02</p>
+            <h3>16-week AI/ML internship</h3>
+            <p>Blackbucks Education, with structured training, practical assignments, and project-based learning.</p>
+          </article>
+          <article class="signal-card">
+            <p class="signal-index">SIGNAL_03</p>
+            <h3>Hackathon winner</h3>
+            <p>First Prize at TechMantra Now for the MES Portal, a collaborative web project.</p>
+          </article>
         </div>
+      </div>
+    </section>
 
-        <div class="skill-card">
-            <h3>Web Technologies</h3>
-
-            <div class="skill-list">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-            </div>
+    <section id="work" class="section-shell work-section">
+      <div class="section-heading section-heading-row" data-stamp="WORK">
+        <div>
+          <p class="eyebrow">02 / SELECTED WORK</p>
+          <h2>Build artifacts, not placeholder cards.</h2>
         </div>
+        <p class="section-note">Each project is a focused experiment in interface, structure, or insight.</p>
+      </div>
 
-        <div class="skill-card">
-            <h3>Database</h3>
-
-            <div class="skill-list">
-                <span>MySQL</span>
-            </div>
-        </div>
-
-        <div class="skill-card">
-            <h3>Tools & Platforms</h3>
-
-            <div class="skill-list">
-                <span>GitHub</span>
-                <span>VS Code</span>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-    <!-- Projects Section -->
-<section id="projects">
-
-    <h2>My Projects</h2>
-
-    <div class="projects-container">
-
-        <!-- MES Portal -->
-        <div class="project-card">
-
-            <h3>MES Portal</h3>
-
-            <p>
-                A web-based portal developed during a hackathon to provide
-                an organized and user-friendly platform for managing and
-                accessing institutional information and services.
-            </p>
-
-            <div class="project-tech">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-            </div>
-
-            <div class="project-links">
-                <a href="https://oletiabhi.github.io/hackathon-team3/openpage.html"
-                   target="_blank">
-                    Live Demo
-                </a>
-            </div>
-
-        </div>
-
-
-        <!-- YouTube Clone -->
-        <div class="project-card">
-
-            <h3>YouTube Clone Website</h3>
-
-            <p>
-                A responsive front-end recreation of the YouTube interface,
-                developed to practice webpage layouts, navigation structures,
-                video cards, and responsive web design.
-            </p>
-
-            <div class="project-tech">
-                <span>HTML</span>
-                <span>CSS</span>
-            </div>
-
-            <div class="project-links">
-                <a href="https://oletiabhi.github.io/Youtube/yt.html/youtube.html"
-                   target="_blank">
-                    Live Demo
-                </a>
-            </div>
-
-        </div>
-
-
-        <!-- E-Commerce Website -->
-        <div class="project-card">
-
-            <h3>E-Commerce Website</h3>
-
-            <p>
-                An e-commerce website project focused on creating product
-                listings, navigation, shopping interfaces, and interactive
-                web components.
-            </p>
-
-            <div class="project-tech">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-            </div>
-
-            <div class="project-links">
-                <a href="#" class="disabled-link">
-                    In Development
-                </a>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
- 
-    <!-- Experience Section -->
-<section id="experience">
-
-    <h2>Experience & Internships</h2>
-
-    <div class="experience-container">
-
-        <div class="experience-card">
-            <span class="experience-date">Apr 2025 – Jun 2025</span>
-            <h3>Google AI-ML Virtual Internship</h3>
-            <p>
-                Gained exposure to machine learning fundamentals,
-                problem-solving techniques, and AI/ML concepts.
-            </p>
-        </div>
-
-        <div class="experience-card">
-            <span class="experience-date">Jan 2025 – Mar 2025</span>
-            <h3>Altair Data Science Master Virtual Internship</h3>
-            <p>
-                Worked with data science concepts including data wrangling,
-                data analysis, and data visualization.
-            </p>
-        </div>
-
-        <div class="experience-card">
-            <span class="experience-date">Oct 2024 – Dec 2024</span>
-            <h3>Google Android Developer Virtual Internship</h3>
-            <p>
-                Gained practical exposure to Android application development
-                concepts and Kotlin programming.
-            </p>
-        </div>
-
-        <div class="experience-card">
-            <span class="experience-date">Jul 2024 – Sep 2024</span>
-            <h3>Palo Alto Cybersecurity Virtual Internship</h3>
-            <p>
-                Learned cybersecurity fundamentals, network security concepts,
-                and modern approaches to protecting digital systems.
-            </p>
-        </div>
-
-    </div>
-
-
-    <!-- Achievement -->
-
-    <div class="achievement-section">
-
-        <h2>Achievement</h2>
-
-        <div class="achievement-card">
-
-            <div class="achievement-icon">🏆</div>
-
+      <div class="project-stack">
+        <article class="project-panel project-panel-featured">
+          <div class="project-meta"><span>BUILD_001</span><span>STATUS / SHIPPED</span></div>
+          <div class="project-content">
             <div>
-                <h3>1st Prize – Hackathon</h3>
-
-                <p>
-                    Won First Prize in a hackathon organized by TechMantra.Now
-                    for developing the MES Portal as part of a collaborative
-                    team project.
-                </p>
+              <p class="project-kicker">Hackathon project</p>
+              <h3>MES Portal</h3>
+              <p class="project-description">A responsive portal designed to make institutional information and services easier to access through a clear, user-focused web experience.</p>
             </div>
+            <dl class="project-facts">
+              <div><dt>BUILT WITH</dt><dd>HTML5, CSS3, JavaScript</dd></div>
+              <div><dt>PROOF</dt><dd>First Prize, TechMantra Now Hackathon</dd></div>
+              <div><dt>FOCUS</dt><dd>Responsive layout and interface clarity</dd></div>
+            </dl>
+          </div>
+          <div class="project-footer">
+            <a class="text-link" href="https://oletiabhi.github.io/hackathon-team3/openpage.html" target="_blank" rel="noopener noreferrer">Open live project <span aria-hidden="true">&#8599;</span></a>
+            <span class="project-number">01</span>
+          </div>
+        </article>
 
-        </div>
-
-    </div>
-
-</section>
-
-   
-    <!-- Contact Section -->
-<section id="contact">
-
-    <h2>Contact Me</h2>
-
-    <div class="contact-container">
-
-        <div class="contact-content">
-
-            <h3>Let's Connect</h3>
-
-            <p>
-                I'm interested in software development opportunities,
-                internships, and collaborative projects. Feel free to
-                connect with me.
-            </p>
-
-            <div class="contact-links">
-
-                <a href="mailto:oletiabhi0@gmail.com">
-                    Email Me
-                </a>
-
-                <a href="https://www.linkedin.com/in/abhi-oleti"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    LinkedIn
-                </a>
-
-                <a href="https://github.com/OletiAbhi"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    GitHub
-                </a>
-
+        <article class="project-panel">
+          <div class="project-meta"><span>BUILD_002</span><span>STATUS / ANALYSIS</span></div>
+          <div class="project-content">
+            <div>
+              <p class="project-kicker">Machine learning exploration</p>
+              <h3>Uber Trips Analysis</h3>
+              <p class="project-description">An exploratory analysis of Uber trip data that uses clustering and visualisation to identify travel patterns, demand areas, and useful trends.</p>
             </div>
+            <dl class="project-facts">
+              <div><dt>BUILT WITH</dt><dd>Python, Pandas, NumPy, Scikit-learn, Matplotlib</dd></div>
+              <div><dt>METHODS</dt><dd>K-Means and DBSCAN clustering</dd></div>
+              <div><dt>FOCUS</dt><dd>Data preparation, visualisation, and pattern discovery</dd></div>
+            </dl>
+          </div>
+          <div class="project-footer">
+            <a class="text-link" href="https://github.com/OletiAbhi/Travel-Patterns-Analysis-" target="_blank" rel="noopener noreferrer">Explore project on GitHub <span aria-hidden="true">&#8599;</span></a>
+            <span class="project-number">02</span>
+          </div>
+        </article>
 
+        <article class="project-panel">
+          <div class="project-meta"><span>BUILD_003</span><span>STATUS / SHIPPED</span></div>
+          <div class="project-content">
+            <div>
+              <p class="project-kicker">Front-end practice</p>
+              <h3>YouTube Clone</h3>
+              <p class="project-description">A responsive YouTube-inspired interface built to practise information hierarchy, video-card layouts, navigation patterns, and mobile-friendly design.</p>
+            </div>
+            <dl class="project-facts">
+              <div><dt>BUILT WITH</dt><dd>HTML, CSS</dd></div>
+              <div><dt>FOCUS</dt><dd>Responsive layout and reusable interface patterns</dd></div>
+              <div><dt>DELIVERY</dt><dd>Live front-end implementation</dd></div>
+            </dl>
+          </div>
+          <div class="project-footer">
+            <a class="text-link" href="https://oletiabhi.github.io/Youtube/yt.html/youtube.html" target="_blank" rel="noopener noreferrer">Open live project <span aria-hidden="true">&#8599;</span></a>
+            <span class="project-number">03</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section-shell timeline-section">
+      <div class="section-heading" data-stamp="TIMELINE">
+        <p class="eyebrow">03 / TIMELINE</p>
+        <h2>Learning by building, then building with intent.</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item timeline-item-featured">
+          <div class="timeline-date">DEC 2025 - APR 2026</div>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <p class="timeline-type">LONG-TERM INTERNSHIP</p>
+            <h3>AI/ML Engineering Intern</h3>
+            <p>Blackbucks Education Pvt. Ltd. - completed a 16-week program of structured AI/ML training, practical assignments, and project-based learning.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2026</div>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <p class="timeline-type">EDUCATION</p>
+            <h3>B.Tech, Computer Science and Engineering</h3>
+            <p>Srinivasa Institute of Engineering and Technology, Amalapuram. CGPA: 7.49/10.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">LEARNING TRACKS</div>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <p class="timeline-type">VIRTUAL INTERNSHIPS</p>
+            <h3>Broad technical foundations</h3>
+            <p>AI/ML and Android Developer with Google; Cybersecurity with Palo Alto; Data Science with Altair.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section-shell skills-section">
+      <div class="section-heading section-heading-row" data-stamp="TOOLKIT">
+        <div>
+          <p class="eyebrow">04 / TOOLKIT</p>
+          <h2>Tools I use to get the build moving.</h2>
         </div>
+      </div>
+      <div class="toolkit-grid">
+        <article><p>LANGUAGES</p><h3>Java, Python, C, C++, JavaScript</h3></article>
+        <article><p>WEB</p><h3>HTML5, CSS3, responsive design</h3></article>
+        <article><p>DATA + AI/ML</p><h3>Python, Machine Learning, Data Analysis, Data Visualization</h3></article>
+        <article><p>TOOLS</p><h3>MySQL, Git, GitHub, VS Code</h3></article>
+      </div>
+    </section>
 
-    </div>
+    <section id="contact" class="contact-section">
+      <div class="contact-grid">
+        <div>
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> CONNECTION / OPEN</p>
+          <h2>Open to new opportunities.</h2>
+          <p>I’m looking for software development opportunities where I can contribute, keep learning, and work with a team that values growth and practical work.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:oletiabhi0@gmail.com">Email me <span aria-hidden="true">&#8594;</span></a>
+          <a class="contact-link" href="https://www.linkedin.com/in/abhi-oleti" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">&#8599;</span></a>
+          <a class="contact-link" href="https://github.com/OletiAbhi" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">&#8599;</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-</section>
+  <footer class="site-footer">
+    <p>&#43; KONASEEMA / ANDHRA PRADESH / INDIA</p>
+    <p>&copy; 2026 ABHI OLETI / WORK IN PROGRESS</p>
+  </footer>
 
-
-<!-- Footer -->
-<footer>
-
-    <p>
-        © 2026 Abhi Oleti. Built with HTML, CSS & JavaScript.
-    </p>
-
-</footer>
-
-
-    <script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
